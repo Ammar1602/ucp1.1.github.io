@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Day In My Life</title>
+
+    <!-- Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbars" style="background-color: whitesmoke">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#navbars"><img src="logo-navbar.png" alt="Logo" width="auto" height="100" class="d-inline-block align-text-mid">A Day In My Life</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse navbar-active" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#current">Current</a>
+                    <a class="nav-link" href="#moment">Moment</a>
+                    <a class="nav-link" href="#routine">Routine</a>
+                    <a class="nav-link" href="#about">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="background-body container-fluid">
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                Good Morning
+            </h1>
+        </div>
+
+        <!-- Jam javascript -->
+        <div class="clock">
+            <h1 id="datetime"></h1>
+            <h1 id="time"></h1>
+        </div>
+
+        <!-- Carousel -->
+
+        <div class="titlecarousel" id="current">
+            <h1>
+                This Week Journey
+            </h1>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="j.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jogja</h5>
+                        <p> Jogja Kota Yang Penuh Kenangan.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="b.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bali</h5>
+                        <p>Destinasi yang wajib di kunjungi.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="ra1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Raja Ampat</h5>
+                        <p>Tempat berlibur terbaik.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+        <div class="row row1" id="moment">
+            <!-- Card row 1-->
+
+            <div class="moment">
+                <h1>Wisata Wajib Untuk Di Datangi</h1>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card card1" style="width: 18rem;">
+                    <img src="2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogja</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card card2" style="width: 18rem;">
+                    <img src="Bali.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bali</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card card3" style="width: 18rem;">
+                    <img src="Raja Ampat.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Raja Ampat</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row2" id="routine">
+            <!-- Card row 2-->
+
+            <div class="activity">
+                <h1>
+                    Routine Activity
+                </h1>
+            </div>
+            <div class="col-sm-3">
+                <div class="card card1" style="width: 18rem;">
+                    <img src="j.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Take pictures</h5>
+                        <p class="card-text">when I'm on vacation, I really like to take pictures, it's useless if we don't take pictures right?.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card card2" style="width: 18rem;">
+                    <img src="b.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Food hunting</h5>
+                        <p class="card-text">I really like to look for local food when I'm on vacation, because this moment can't be missed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card card3" style="width: 18rem;">
+                    <img src="ra1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Visit famous places</h5>
+                        <p class="card-text">when we are on vacation, surely we will not be silent, right? So usually I will visit famous places.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="text-center py-3">
+                        <h3>Kontak</h3>
+                        <p>Telepon <br> Ammar Fatwa Syuhada <br> 0812-3456-7890 </p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="text-center py-3">
+                        <h3>Alamat</h3>
+                        <p>Jl. Air Hitam Samarinda, Kalimantan Timur</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="text-center py-3">
+                        <p>Copyright &copy; 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="ucp1.js"></script>
+</body>
+
+</html>
